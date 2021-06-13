@@ -7,6 +7,7 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
 </head>
 <body>
   <div id="app"></div>
@@ -26,7 +27,30 @@
 	  coverpage: ['/'],
     }
   </script>
+   <!--插入“gitalk评论”模块-->
+  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script src="js/md5.min.js"></script>
+  <script>
+	const gitalk = new Gitalk({
+		clientID: 'ea3e69f3964e5337255d',
+		clientSecret: '0c5da7e57bdcb6fc2c3cb2cfcdd2eddec5baf558',
+		repo:'https://github.com/ErikChanGit/ErikChan-Blog.git',
+		owner:'ErikChanGit',
+		admin: ['ErikChanGit'],
+		// facebook-like distraction free mode  
+		distractionFreeMode: false
+    })
+  </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="_scripts/docsify.min.js"></script>
+  <script src="_scripts/search.min.js"></script>
+  <script src="_scripts/emoji.min.js"></script>
+  <script src="_scripts/prism-c.min.js"></script>
+  <script src="_scripts/docsify-tabs.js"></script>
+  <script src="_scripts/docsify-sidebar-collapse.min.js"></script>
+  <script src="_scripts/docsify-scroll-to-top.min.js"></script>
+  <script src="_scripts/docsify-copy-code.js"></script>
 </body>
 </html>
