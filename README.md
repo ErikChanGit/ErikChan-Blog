@@ -1,3 +1,3 @@
-# 博客介绍
+# Erik Chan's Documents
 
-这是一些关于博客的介绍
+Document Center of Erik Chan
