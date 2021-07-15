@@ -54,6 +54,6 @@ docsify serve
 - 提交 git
 - 在 github 仓库 settings 中找到 github pages，选择 docs 目下，Save
 
-  ![image-20210613113145744](/figures/github_page.png)
+  ![github_page](figures/github_page.png)
 
 - 打开 Github Pages 中提示的网址，您就能看到博客啦
