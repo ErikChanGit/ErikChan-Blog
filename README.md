@@ -1,3 +1,16 @@
 # Erik Chan's Documents
 
-Document Center of Erik Chan
+### Github
+
+git add remote github xxx
+
+git push github main
+
+
+
+### Gitee
+
+git add remote gitee   xxx
+
+git push gitee main
+
